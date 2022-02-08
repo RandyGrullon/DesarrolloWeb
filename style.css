@@ -1,0 +1,138 @@
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    
+   
+}
+
+#display {
+    text-align: right;
+    height: 100px;
+    line-height: 70px;
+    padding: 16px 8px;
+    background-color: rgb(235, 235, 235);
+    font-size: 25px;
+    border: 1px solid#999;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.button {
+    border: 0.5px solid #999;
+    background-color: #ffffff;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: red;
+    color: white;
+}
+
+#clear {
+    background-color: rgb(255, 0, 128);
+    color: white;
+}
+
+.button:hover {
+    background-color: #1eff00;
+    color: white;
+    transition: 0.1s ease-in-out;
+}
+
+.main--container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 35vh auto 0 auto;
+}
+.main--tittle{
+    padding: 20px;
+    color: #fff;
+    vertical-align: top;
+}
+.main--button{
+    text-decoration: none;
+}
+
+.main--text{
+    background-color: #e0ba1f;
+    padding: 10px;
+    border: none;
+    font-size: 30px;
+    display: inline;
+    margin: 10px;
+}
+
+.main--input{
+    border: none;
+    margin: 10px;
+    display: inline;
+text-align: center;
+  border-bottom: 2px solid red;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*navbar*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lato', cursive;
+    background-color: #282D35;
+}
+/*NavBar*/
+.nav--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+    
+}
+
+.nav--text{
+    text-decoration: none;
+    font-size:24px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    color: #fff;
+}    
+
+.nav--items {
+    text-decoration: none;
+    display: inline;
+    margin: 10px;
+    
+}
+.nav--list{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav--text:hover{
+    color: #e0ba1f;
+}
+
+

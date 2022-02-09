@@ -23,13 +23,20 @@ buttons.map( button => {
     });
 });
 
-function pressed(){
-    var age=document.getElementById('btn').value;
-//check if age is a number or less than or greater than 100
-if (age <=17)
-{ 
-    alert("Sos menor Boludo");
-  
+function link(){
+
 }
-    
+
+function pressed(){
+    let age;
+    age = Number(document.getElementById("age").value);
+    if(age <= 17)
+    {
+        
+       alert("You are not an adult");
+    }
+    else
+    {
+       window.location.href = "https://www.presidente.com.do/";
+    }
 }
